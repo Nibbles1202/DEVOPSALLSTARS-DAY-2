@@ -2,7 +2,7 @@
 A real-time notification system designed for sports enthusiasts, providing live NBA game updates via SMS and email. This project leverages AWS services, Python, and the MLB Game API to create a secure, automated, and user-friendly alert system.
 
 ## Project Highlights
-🔹 Real-Time Game Updates: Fetches live NBA game scores using an external API.
+🔹 Real-Time Game Updates: Fetches live MLB game scores using an external API.
 
 🔹 Multi-Channel Notifications: Sends formatted score updates to subscribers via SMS and Email using Amazon SNS.
 
@@ -11,7 +11,7 @@ A real-time notification system designed for sports enthusiasts, providing live 
 🔹 Secure Architecture: Designed with security best practices, implementing least privilege access for IAM roles.
 
 ## Features
-🏀 Live Score Updates: Stay updated with the latest NBA scores and stats in real time.
+🏀 Live Score Updates: Stay updated with the latest MLB scores and stats in real time.
 
 📩 Customizable Alerts: Receive notifications via your preferred channel—SMS or Email.
 
@@ -43,7 +43,7 @@ AWS Lambda: Executes notification logic.
 
 Amazon EventBridge: Automates scheduled updates.
 
-External API: NBA Game API (SportsData.io)
+External API: MLB Game API (SportsData.io)
 
 Programming Language: Python 3.x
 
@@ -55,7 +55,8 @@ IAM Security: Follows the principle of least privilege for roles and policies.
 
 ## Setup Instructions
 1. Clone the Repository
-- git clone https://github.com/princemaxi/Game-Day-Notifications
+- git clone https://github.com/ifeanyiro9/game-day-notifications.git
+cd game-day-notifications
 - cd game-day-notifications
 3. Create an SNS Topic
 - Navigate to the SNS service in the AWS Management Console.
@@ -85,7 +86,7 @@ IAM Security: Follows the principle of least privilege for roles and policies.
 - Assign the IAM role (gd_role) to the function.
 - Upload the code from src/gd_notifications.py into the function editor.
 -  Add environment variables:
-- NBA_API_KEY: Your SportsData.io API key.
+- MLB_API_KEY: Your SportsData.io API key.
 - SNS_TOPIC_ARN: The ARN of the SNS topic created earlier.
 - Click Create Function.
 8. Set Up Automation with EventBridge
