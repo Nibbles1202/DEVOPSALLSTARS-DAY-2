@@ -31,6 +31,7 @@ This system combines cloud computing and real-world application of APIs to deliv
 
 ## Technical Architecture
 ![image](https://github.com/user-attachments/assets/5d2ba02e-a743-4d41-af13-3b54ccb212d6)
+#API is interchangeable based on what sport is chosen
 
 ## Technologies Used
 Cloud Provider: AWS
