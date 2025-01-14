@@ -1,14 +1,5 @@
-# Explanation
-
-away_total and home_total are initialized to 0. These variables will keep track of the cumulative scores for the away and home teams.
-For each inning in innings:
-The scores for the away and home teams are added to the cumulative totals (away_total and home_total).
-A formatted string is created that shows the inning number and the cumulative scores up to that inning.
-inning_scores is a list that holds the formatted strings for each inning. At the end, we join these strings into a single string using ', '.join(inning_scores)
-
-
-# NBA Game Day Notifications / Sports Alerts System
-A real-time notification system designed for sports enthusiasts, providing live NBA game updates via SMS and email. This project leverages AWS services, Python, and the NBA Game API to create a secure, automated, and user-friendly alert system.
+# MLB Game Day Notifications / Sports Alerts System
+A real-time notification system designed for sports enthusiasts, providing live NBA game updates via SMS and email. This project leverages AWS services, Python, and the MLB Game API to create a secure, automated, and user-friendly alert system.
 
 ## Project Highlights
 🔹 Real-Time Game Updates: Fetches live NBA game scores using an external API.
@@ -29,7 +20,7 @@ A real-time notification system designed for sports enthusiasts, providing live 
 🔒 Secure Infrastructure: Adheres to cloud security principles for robust and reliable operations.
 
 ## Prerequisites
-1️⃣ Sports API Key: Create a free account at sportsdata.io to access NBA game data.
+1️⃣ Sports API Key: Create a free account at sportsdata.io to access MLB game data.
 
 2️⃣ AWS Account: Set up an AWS account with basic knowledge of AWS services like SNS, Lambda, and EventBridge.
 
@@ -106,14 +97,6 @@ IAM Security: Follows the principle of least privilege for roles and policies.
 - Open the Lambda function in the AWS Console.
 - Create a test event to simulate execution.
 - Verify that notifications are sent to your email/SMS subscribers.
-
-![image](https://github.com/user-attachments/assets/150b040d-c176-4103-9578-b6dcd13fe7e9)
-![image](https://github.com/user-attachments/assets/1ae8bc73-4c49-4f62-8b75-e1060c493a86)
-![image](https://github.com/user-attachments/assets/33406b16-ea14-4816-9f64-d07686e5712f)
-![image](https://github.com/user-attachments/assets/ab3b3289-db03-4f6d-883a-e914506b00cb)
-![image](https://github.com/user-attachments/assets/59e09652-b7f1-4ae7-ad8f-b8a1894793f0)
-![image](https://github.com/user-attachments/assets/329f8055-3266-4ff9-a818-938a8fdcbcee)
-
 
 
 Key Takeaways
