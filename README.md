@@ -51,10 +51,6 @@ Programming Language: Python 3.x
 
 IAM Security: Follows the principle of least privilege for roles and policies.
 
-## Project Structure
-
-![image](https://github.com/user-attachments/assets/8c7454fa-fd4e-4829-8d6a-1821f0c9b89d)
-
 ## Setup Instructions
 1. Clone the Repository
 - git clone https://github.com/ifeanyiro9/game-day-notifications.git
@@ -105,9 +101,3 @@ Key Takeaways
 - Integrated AWS SNS, Lambda, and EventBridge to design a real-time notification system.
 - Secured the architecture with least privilege IAM policies.
 - Demonstrated API integration and automation in a cloud environment.
-
-Future Enhancements
-- Add NFL Alerts: Extend functionality to include NFL game notifications.
-- Personalized Preferences: Use DynamoDB to store user preferences (e.g., teams or game types).
-- Web UI Integration: Create a frontend interface for users to manage subscriptions and preferences.
-- Enhanced Analytics: Use AWS CloudWatch for deeper insights into notification performance.
