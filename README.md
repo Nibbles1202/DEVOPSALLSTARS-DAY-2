@@ -56,7 +56,6 @@ IAM Security: Follows the principle of least privilege for roles and policies.
 ## Setup Instructions
 1. Clone the Repository
 - git clone https://github.com/ifeanyiro9/game-day-notifications.git
-cd game-day-notifications
 - cd game-day-notifications
 3. Create an SNS Topic
 - Navigate to the SNS service in the AWS Management Console.
